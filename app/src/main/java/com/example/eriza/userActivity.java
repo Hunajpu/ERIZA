@@ -25,7 +25,7 @@ public class userActivity extends AppCompatActivity {
 
         //Botón que te lleva a la pestaña de predicciones
         final Button botonFuturo = findViewById(R.id.button4);
-        botonHistorial.setOnClickListener(new View.OnClickListener() {
+        botonFuturo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 abrirFuturo();
@@ -35,13 +35,13 @@ public class userActivity extends AppCompatActivity {
 
     public void abrirHistorial()
     {
-        Intent intent = new Intent(this, pastActivity.class);
+        Intent intent = new Intent(userActivity.this, pastActivity.class);
         startActivity(intent);
     }
 
     public void abrirFuturo()
     {
-        Intent intent = new Intent(this, futureActivity.class);
+        Intent intent = new Intent(userActivity.this, futureActivity.class);
         startActivity(intent);
     }
 }
