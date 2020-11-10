@@ -19,57 +19,66 @@
         <com.google.android.gms.maps.MapView
             android:id="@+id/mapView"
             android:layout_width="match_parent"
-            android:layout_height="204dp" />
+            android:layout_height="0dp"
+            android:layout_weight="5"/>
 
         <Spinner
             android:id="@+id/spinner_zona"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:entries="@array/planets_array" />
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:entries="@array/opciones_zonas" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="66dp"
-            android:orientation="horizontal">
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/cultivo_textView"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:text="TextView" />
 
             <Button
                 android:id="@+id/button_cultivo"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Editar Cultivos" />
         </LinearLayout>
 
-        <LinearLayout
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:orientation="horizontal">
+            android:layout_height="0dp"
+            android:layout_weight="5">
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="6dp"
-                android:text="Button" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Historial" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="Predicciones" />
         </LinearLayout>
 
-        <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/chart"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"></com.github.mikephil.charting.charts.LineChart>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
