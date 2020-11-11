@@ -36,41 +36,40 @@
                 android:layout_height="fill_parent"
                 android:orientation="vertical" >
 
-                <com.github.mikephil.charting.charts.LineChart
+                <com.github.mikephil.charting.charts.BarChart
                     android:id="@+id/chart_humedad"
                     android:layout_width="match_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1">
-                </com.github.mikephil.charting.charts.LineChart>
+                    android:layout_height="70dp"
+                    android:layout_weight="1"></com.github.mikephil.charting.charts.BarChart>
                 <TextView
                     android:id="@+id/textHumedad"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Grafica de humedad" />
 
-                <com.github.mikephil.charting.charts.LineChart
+                <com.github.mikephil.charting.charts.BarChart
                     android:id="@+id/chart_ph"
                     android:layout_width="match_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1">
-                </com.github.mikephil.charting.charts.LineChart>
+                    android:layout_height="70dp"
+                    android:layout_weight="1"></com.github.mikephil.charting.charts.BarChart>
                 <TextView
                     android:id="@+id/textPH"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Grafica de PH" />
 
-                <com.github.mikephil.charting.charts.LineChart
+                <com.github.mikephil.charting.charts.BarChart
                     android:id="@+id/chart_temp"
                     android:layout_width="match_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1">
-                </com.github.mikephil.charting.charts.LineChart>
+                    android:layout_height="70dp"
+                    android:layout_weight="1"></com.github.mikephil.charting.charts.BarChart>
                 <TextView
                     android:id="@+id/textTemp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Grafica de Temperatura" />
+
+                <com.github.mikephil.charting.charts.BarChart
 
                 <TextView
                     android:id="@+id/textView6"
@@ -82,27 +81,25 @@
                 <com.github.mikephil.charting.charts.LineChart
                     android:id="@+id/chart_velViento"
                     android:layout_width="match_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1">
-                </com.github.mikephil.charting.charts.LineChart>
+                    android:layout_height="69dp"
+                    android:layout_weight="1"></com.github.mikephil.charting.charts.BarChart>
                 <TextView
                     android:id="@+id/textViento"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Grafica de Viento" />
 
-                <com.github.mikephil.charting.charts.LineChart
+                <com.github.mikephil.charting.charts.PieChart
                     android:id="@+id/chart_quim"
                     android:layout_width="match_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1">
-                </com.github.mikephil.charting.charts.LineChart>
+                    android:layout_height="195dp"
+                    android:layout_weight="1"></com.github.mikephil.charting.charts.PieChart>
 
                 <TextView
                     android:id="@+id/textQuim"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Grafica de Compocisión Química" />
+                    android:text="Grafica de Composición Química" />
 
                 <Button
                     android:id="@+id/button"
