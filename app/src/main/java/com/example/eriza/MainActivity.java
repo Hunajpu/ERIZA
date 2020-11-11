@@ -16,8 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //final EditText user = findViewById(R.id.editTextTextEmailAddress);
-        //final EditText pass = findViewById(R.id.editTextTextPassword);
+
 
         final Button botonLogin = findViewById(R.id.button);
         botonLogin.setOnClickListener(new View.OnClickListener() {
@@ -26,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
                 EditText user = findViewById(R.id.editTextTextEmailAddress);
                 EditText pass = findViewById(R.id.editTextTextPassword);
 
-                //if(user.getText().toString().equals("admin") && pass.getText().toString().equals("admin")){
-                    //abrirAdmin();
-                //}else
+                if(user.getText().toString().equals("admin") && pass.getText().toString().equals("admin")){
+                    abrirAdmin();
+                }
                 if(user.getText().toString().equals("user") && pass.getText().toString().equals("user")){
                     abrirUsuario();
                 }
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Método para abrir la ventana del admin
     public void abrirAdmin(){
-        Intent intent = new Intent(MainActivity.this, adminActivity.class);
+        Intent intent = new Intent(MainActivity.this, AdminActivity.class);
         startActivity(intent);
     }
 
