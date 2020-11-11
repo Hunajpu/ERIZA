@@ -1,6 +1,7 @@
 # ERIZA
- Proyecto para resolever la problematica del aguacate en Jalisco
-ERIZA es un proyecto que busca mejorar las prácticas agrícolas para hacer que la producción del aguacate en Zapotlán El Grande sea sustentable. Este repositorio contiene una aplicación para android que se conecta a una base de datos de Firebase. La idea es que mediante los servicios de Google Cloud se pueda implementar una solución completa incluyendo tecnologías IoT (Redes de sensores agrícolas) y servicios de Machine Learning de la misma plataforma para poder predecir posibles daños al medio ambiente y tomar medidas preventivas.
+ Proyecto para resolver la problematica del aguacate en Jalisco.
+ 
+ ERIZA es un proyecto que busca mejorar las prácticas agrícolas para hacer que la producción del aguacate en Zapotlán El Grande sea sustentable. Este repositorio contiene una aplicación para android que se conecta a una base de datos de Firebase. La idea es que mediante los servicios de Google Cloud se pueda implementar una solución completa incluyendo tecnologías IoT (Redes de sensores agrícolas) y servicios de Machine Learning de la misma plataforma para poder predecir posibles daños al medio ambiente y tomar medidas preventivas.
 Esperamos que con esta aplicación se pudea apreciar los alcances de nuestro proyecto.
 
 
