@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 30
@@ -7,6 +8,7 @@ android {
         applicationId "com.example.eriza"
         minSdkVersion 16
         targetSdkVersion 30
+        multiDexEnabled true
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -32,4 +34,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation platform('com.google.firebase:firebase-bom:25.12.0')
+    implementation 'com.google.firebase:firebase-firestore:21.2.1'
+    implementation 'com.android.support:multidex:1.0.3'
 }

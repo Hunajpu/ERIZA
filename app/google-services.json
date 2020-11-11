@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "6718310314",
+    "firebase_url": "https://eriza-4c7b3.firebaseio.com",
+    "project_id": "eriza-4c7b3",
+    "storage_bucket": "eriza-4c7b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6718310314:android:792c4a9029220cbb6dcdd3",
+        "android_client_info": {
+          "package_name": "com.example.eriza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6718310314-a66kube47u8cdhrd0phrk1in32a3or28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArHraxgnucqcAnh_TflSryzl4pESnlcs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6718310314-a66kube47u8cdhrd0phrk1in32a3or28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
